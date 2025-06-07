@@ -1,0 +1,79 @@
+
+.navlogo1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:white !important;
+  font-size: 2.5rem;
+
+
+}
+.si{
+    font-size: 40px;
+}
+.icon-group i {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: white !important;
+}
+.user_font{
+    color: white;
+    
+}
+.user_font:hover{
+    color: white !important;
+}
+.btn_user{
+    background-color:none;
+    border: solid 2px white;
+
+}
+.bg_user{
+    background-color: rgb(78, 76, 76);
+}
+.hr-or-hr {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .hr-or-hr hr {
+      flex: 1;
+      height: 2px;
+      background-color: #000;
+      border: none;
+    }
+
+    .hr-or-hr span {
+      padding: 0 10px;
+      font-weight: bold;
+    }
+    input::placeholder{
+        color:white !important;
+    }
+    .sign_size{
+        font-size: 1.3rem;
+    }
+    .button_facebook{
+        background-color: rgba(52, 14, 188, 0.856);
+        color: white;
+    }
+    .button_google{
+        background-color: red;
+        color: white;
+    }
+    .button_twitter{
+        background-color: rgba(25, 142, 209, 0.986);
+        color: white;
+    }
+    .btn-close.btn-close-white {
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.146a.5.5 0 0 1 .708 0L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E"); */
+    /* background-size: 3em; */
+    background-color: white;
+    color: white !important;
+  }
+  .input_text{
+    color: red !important;
+  }
