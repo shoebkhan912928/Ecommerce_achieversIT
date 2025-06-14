@@ -9,7 +9,7 @@
 .footer_inputs {
     background-color: #333 !important;
     border: solid 1px white !important;
-    color: red !important;
+    color:white !important;
 
 
 
@@ -31,6 +31,16 @@
 } */
  @media (max-width:426px) {
     .footer_first_align{
-        text-align: center;
+        text-align: center !important;
     }
  }
+body {
+    overflow-x: hidden; 
+}
+
+
+footer {
+    overflow-x: hidden; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
