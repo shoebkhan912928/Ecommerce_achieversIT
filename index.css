@@ -208,3 +208,7 @@ body {
         padding: 8px 10px;
       }
     }
+    .card_button_bottom{
+      background-color: red;
+      color: white;
+    }
