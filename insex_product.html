@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Default layout for large screens (side-by-side) */
+.image-wrapper {
+  display: flex;
+}
+
+/* Main image */
+.main-image img {
+  width: 44vw;
+}
+
+/* Thumbnails */
+.product_details_small_image_width {
+  width: 10vw;
+}
+
+/* Product details side layout */
+.product_details_right {
+  width: 44vw;
+  margin-left: 10vw;
+}
+
+/* Responsive styles for < 769px */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .main-image img {
+    width: 60vw;
+  }
+
+  .product_details_small_image_width {
+    width: 15vw;
+  }
+
+  .product_details_right {
+    width: 90vw;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+    </style>
+</head>
+
+<body class="bg-dark">
+    <div class="d-flex mx-5 flex-wrap product-container">
+  <!-- Left: Thumbs + Main Image -->
+  <div class="d-flex image-wrapper">
+    <!-- Thumbnails -->
+    <div class="d-flex flex-column thumbnails">
+      <img class="product_details_small_image_width mb-3" src="./images/first_slider.png" alt="">
+      <img class="product_details_small_image_width mb-3" src="./images/second_slider.png" alt="">
+      <img class="product_details_small_image_width mb-3" src="./images/third_slider.png" alt="">
+      <img class="product_details_small_image_width" src="./images/fourth_slide.png" alt="">
+    </div>
+
+    <!-- Main Image -->
+    <div class="main-image ms-3">
+      <img class="main-product-img" src="./images/first_slider.png" alt="">
+    </div>
+  </div>
+
+  <!-- Product Details -->
+  <div class="product_details_right">
+    <h3 class="text-white">JBL Live 660NC</h3>
+                <p class="text-white">Wireless Over-Ear NC Headphones</p>
+                <span>
+                    <i class="fa-solid fa-star" style="color: #ff4500;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff4500;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff4500;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff4500;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff4500;"></i>
+                    <span class="text-white">| 1234 Ratings</span>
+                </span>
+                <hr class="text-white">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <p class="card-text text-white fs-2 fw-bold m-1 d-inline">₹9,999</p>
+                        <p class="card-text text-white fs-5 d-inline text-decoration-line-through">₹14,999</p><br>
+                        <p style="color: rgb(0, 255, 0)">You save: ₹5,00 (33%)</p>
+                        <p class="text-white">(Inclusive of all taxes)</p>
+                    </div>
+                    <div>
+                        <button class="border-0 text-white p-1 mt-5 product_details_stock_button">
+                            <i class="fa-solid fa-check fa-sm"></i>
+                            <strong class="text-white">In Stock</strong>
+                        </button>
+                    </div>
+                </div>
+                <hr class="text-white "><br>
+                <h5 class="text-white">Offers And Discounts</h5><br>
+                <div class="d-flex" style=" gap: 0 20px;">
+                    <p class=" border border-white text-white fs-4  text-sm-nowrap rounded-2">No Cost EMI on Credit Card</p>
+                    <p class="border border-white text-white fs-4 text-sm-nowrap rounded-2">Pay Later & Avail Cashback</p>
+                </div>
+                <hr class="text-white">
+                <button class="rounded-5 border-0 text-white p-2 product_details_rigth_button">Add to Cart</button>
+            </div>
+        
+
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
