@@ -44,3 +44,6 @@ footer {
     width: 100%; 
     box-sizing: border-box; 
 }
+.footer_hover:hover{
+    color: red !important;
+}
