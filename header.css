@@ -185,17 +185,17 @@ body::selection {
 @media (max-width: 426px) {
   .button_facebook {
     font-size: 0.5rem !important;
-    padding: 0.5rem 0.5rem 0.5rem 0.3rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.3rem !important;
   }
 
   .button_google {
-    font-size: 0.5rem;
-    padding: 0.5rem 0.5rem;
+    font-size: 0.5rem !important;
+    padding: 0.5rem 0.5rem !important;
   }
 
   .button_twitter {
-    font-size: 0.5rem;
-    padding: 0.5rem 0.5rem;
+    font-size: 0.5rem !important;
+    padding: 0.5rem 0.5rem !important;
   }
 }
 

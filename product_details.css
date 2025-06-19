@@ -391,3 +391,14 @@ body, html {
   color: white !important;
 
 }
+@media (max-width:322px) {
+   .pp{
+      /* margin-left: -20px !important; */
+      /* padding-left: -50px !important; */
+      /* margin-right: 40px !important; */
+
+   }
+   .Prod-Speci{
+      margin-right: -13px !important;
+   }
+}
